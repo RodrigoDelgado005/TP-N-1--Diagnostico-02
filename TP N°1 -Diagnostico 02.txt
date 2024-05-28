@@ -1,0 +1,34 @@
+
+a) Crear una tabla llamada MARCAS con las siguientes columnas: 
+IdMarca (entero pequeño sin signo, no nulo, valor predeterminado 1), 
+NombreMarca (cadena de caracteres(10), no nulo) 
+NombreCiudad (cadena de caracteres(60), no nulo)
+La clave primaria de esta tabla será IdMarca.
+
+b) Crear una tabla llamada COCHES con las siguientes columnas: 
+codcoche (entero pequeño sin signo, no nulo), 
+nombre (cadena de caracteres(15), no nulo) 
+modelo (cadena de caracteres(10)). 
+La clave primaria de esta tabla será codcoche.
+
+c) Crear una tabla llamada MARCO con las columnas IdMarca (entero pequeño sin signo, no nulo)
+codcoche (entero pequeño sin signo, no nulo)
+La clave primaria de esta tabla será la combinación de IdMarca y codcoche. Tambien esta tabla tendrá dos claves foráneas: cifm que hace referencia a la tabla MARCAS y codcoche que hace referencia a la tabla COCHES.
+
+d) Insertar los siguientes registros en la tabla MARCAS:
+(1,'vw','Mar del Plata')
+(2,'renault','Rosario')
+(3,'fiat','Cordoba')
+(4,'ford','Neuquen')
+
+e) Mostrar todos los registros de la tabla MARCAS.
+
+f) Mostrar los nombres y ciudades de la tabla MARCAS.
+
+g) Buscar los datos del codigo 2.
+
+h) Buscar las marcas que operen en la ciudad de 'Neuquen'.
+
+i) Listar las ciudades que comiencen con la letra S
+
+j) Reemplaza la ciudad de 'Jujuy' por la de 'Neuquen'
